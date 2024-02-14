@@ -1,0 +1,7 @@
+La imagen muestra dos elementos de una interfaz de usuario, probablemente de una configuración de software o página web. Cada elemento consiste en un título y un campo de entrada de número con una barra deslizable.
+
+El primer elemento dice "Flutter-coverage: Low Coverage Threshold" con una descripción debajo que dice "coverage threshold considered too low" y tiene un número establecido en 50. Esto sugiere que es el umbral mínimo de cobertura para algún tipo de métrica (posiblemente pruebas de código o cobertura de funcionalidades) que se considera bajo en el contexto de Flutter, que es un framework de desarrollo para aplicaciones móviles y web.
+
+El segundo elemento dice "Flutter-coverage: Sufficient Coverage Threshold" con una descripción debajo que dice "coverage threshold considered sufficient" y tiene un número establecido en 70. Esto indica que es el umbral de cobertura que se considera suficiente para los estándares o requerimientos del proyecto o contexto en el que se está utilizando Flutter.
+
+En general, la imagen parece ser parte de una herramienta o configuración donde se pueden establecer umbrales para la cobertura de pruebas o funcionalidades en Flutter, permitiendo a los usuarios definir qué consideran un nivel bajo o suficiente de cobertura.

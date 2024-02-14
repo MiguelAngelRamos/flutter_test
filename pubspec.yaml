@@ -1,0 +1,44 @@
+name: json_holder
+# El nombre del proyecto Flutter. Se utiliza en todo el ecosistema de Dart y Flutter para identificar tu paquete.
+
+description: "A new Flutter project."
+# Una breve descripción de tu proyecto. Es buena práctica proporcionar una descripción clara de lo que hace tu proyecto.
+
+publish_to: 'none'
+# Esta línea indica que el paquete no debe publicarse en pub.dev. Es útil para proyectos privados o experimentales.
+
+version: 1.0.0+1
+# La versión del proyecto, siguiendo el esquema de versionado semántico. También puede incluir un código de versión de compilación después del +.
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+# Especifica las versiones del SDK de Dart compatibles con este proyecto. Asegura que tu proyecto solo se use con versiones del SDK que son compatibles.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # La dependencia principal para cualquier proyecto Flutter. Esto incluye el SDK de Flutter.
+
+  http: ^0.13.3
+  # Una biblioteca para realizar peticiones HTTP. Utilizada para comunicarse con APIs externas.
+
+  cupertino_icons: ^1.0.2
+  # Proporciona íconos al estilo de iOS (Cupertino) para Flutter. Útil para proyectos que buscan un diseño al estilo iOS.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Dependencia para escribir y ejecutar tests en Flutter. Viene con el SDK de Flutter.
+
+  mockito: ^5.0.0
+  # Una biblioteca para crear mocks en tests de Dart. Muy útil para simular dependencias en tests unitarios y de widgets.
+
+  flutter_lints: ^2.0.0
+  # Proporciona un conjunto de reglas recomendadas para linting de código Flutter, ayudando a mantener la calidad y coherencia del código.
+
+  build_runner: ^2.1.2
+  # Una herramienta que genera código automáticamente, utilizada con bibliotecas como mockito para generar mocks.
+
+flutter:
+  uses-material-design: true
+# Indica que el proyecto utiliza los íconos y fuentes de Material Design. Esto permite el acceso a una rica biblioteca de íconos y estilos predefinidos.
